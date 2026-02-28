@@ -5,6 +5,7 @@
 
 # Appearance
 hugoblox:
+  schema: "2.0"
   theme:
     mode: system
     pack: "matcha"
@@ -30,21 +31,23 @@ hugoblox:
 
   # Site header
   header:
-    navbar:
       enable: true
-      blox: "navbar"
-      align: "center"
-      fixed_to_top: true
-      logo:
-        text: ""
-        # Logo filename in `assets/media/` folder
-        filename: "T39 logo.svg"
-      button:
+      # Header style variant
+      style: navbar                       # navbar | navbar-simple | minimal
+      # Stick to top on scroll
+      sticky: true
+      # Menu alignment
+      align: center                       # left | center | right
+      # Feature toggles
+      search: true
+      theme_toggle: false
+      theme_picker: false
+      language_switcher: false
+      # Call-to-action button
+      cta:
         enable: true
-        text: "Internes"
-        url: "internes/"
-      show_search: true
-      show_theme_chooser: true
+        text: "internes"
+        url: ""
 
   # Site footer
   footer:

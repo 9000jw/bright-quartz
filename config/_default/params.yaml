@@ -6,7 +6,6 @@
 # Appearance
 appearance:
   mode: system
-  color: blue
 
 theme:
     pack: "default"

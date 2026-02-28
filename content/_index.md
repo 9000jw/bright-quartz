@@ -11,24 +11,30 @@ design:
 
 # Page sections
 sections:
-  - block: biography
+  - block: hero
     content:
-      username: admin
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Résumé
-        url: uploads/resume.pdf
+      title: Templergraben 39
+      text: Evangelisches Studentenwohnheim
+      primary_action:
+        text: Bewirb dich fürs Wohnheim
+        url: bewerbung/
     design:
-      banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
-      biography:
-        # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
-      # Avatar customization
-      avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark"
+      background:
+        color: "indigo"
+        image:
+          # Add your image background to `assets/media/`.
+          filename: blaueshaus.jpg
+          filters:
+            brightness: 0.5
+          size: cover
+          position: center
+          parallax: false
+
   - block: experience
     content:
       username: admin

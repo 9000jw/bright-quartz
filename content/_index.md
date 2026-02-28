@@ -25,7 +25,6 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
-        color: "indigo"
         image:
           # Add your image background to `assets/media/`.
           filename: blaueshaus.jpg
@@ -34,6 +33,29 @@ sections:
           size: cover
           position: center
           parallax: false
+
+  - block: stats
+    id: stats
+    content:
+      items:
+        - statistic: "23"
+          description: |
+            Mitbewohnis
+        - statistic: "75+"
+          description: |
+            Jahre Selbstverwaltung
+        - statistic: "100%"
+          description: |
+            Gemeinschaft
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-primary-700 text-white"
+
+      columns: "3"
+      # Reduce spacing
+      spacing:
+        padding: ["1rem", 0, "1rem", 0]
+
 
   - block: experience
     content:

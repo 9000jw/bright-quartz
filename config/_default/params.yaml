@@ -6,12 +6,11 @@
 # Appearance
 appearance:
   mode: system
-  theme:
-    pack: "default"
-    colors:
-      primary: "red"      # Main brand color
-      secondary: "sky"   # Accent color
-      neutral: "slate"
+  pack: "default"
+  colors:
+    primary: "red"      # Main brand color
+    secondary: "sky"   # Accent color
+    neutral: "slate"
 
 # SEO
 marketing:

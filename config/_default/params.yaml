@@ -36,14 +36,15 @@ hugoblox:
       align: "center"
       fixed_to_top: true
       logo:
-        text: "T39"
+        text: ""
         # Logo filename in `assets/media/` folder
+        filename: "T39 logo.svg"
       button:
         enable: true
         text: "Internes"
         url: "internes/"
       show_search: true
-      show_theme_chooser: false
+      show_theme_chooser: true
 
   # Site footer
   footer:

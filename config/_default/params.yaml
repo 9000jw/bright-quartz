@@ -6,8 +6,7 @@
 # Appearance
 appearance:
   mode: system
-
-theme:
+  theme:
     pack: "default"
     colors:
       primary: "red"      # Main brand color

@@ -19,6 +19,7 @@ sections:
         text: Bewirb dich fürs Wohnheim
         url: bewerbung/
     design:
+      css_class: "dark"
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
@@ -54,30 +55,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
-
-
-  - block: experience
-    title: historie
-    content:
-      username: admin
-    design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
-  - block: skills
-    content:
-      title: Skills & Hobbies
-      username: admin
-  - block: awards
-    content:
-      title: Awards
-      username: admin
-  - block: languages
-    content:
-      title: Languages
-      username: admin
-      
+        
   - block: features
     id: features
     content:

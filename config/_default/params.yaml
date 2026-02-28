@@ -8,6 +8,13 @@ appearance:
   mode: system
   color: blue
 
+theme:
+    pack: "default"
+    colors:
+      primary: "red"      # Main brand color
+      secondary: "sky"   # Accent color
+      neutral: "slate"
+
 # SEO
 marketing:
   seo:
